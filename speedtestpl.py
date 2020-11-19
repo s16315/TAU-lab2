@@ -25,5 +25,5 @@ class SpeedTestPl:
         Metoda kończąca test.
         :return:
         """
-        time.sleep(3)
+        time.sleep(1)
         self.driver.close()

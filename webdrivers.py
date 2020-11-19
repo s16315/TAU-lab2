@@ -3,20 +3,19 @@ from selenium import webdriver
 
 class WebDrivers:
     """
-
+    Klasa dostarczająca i konfigurująca webdrivery do przeglądarek
     """
+    @staticmethod
+    def get_chrome():
+        driver = webdriver.Chrome(executable_path='./Drivers/chromedriver.exe')
+        return driver
 
-#    def __init__(self):
-#        self.driver = webdriver.Chrome(executable_path='./Drivers/chromedriver.exe.exe')
+    @staticmethod
+    def get_edge():
+        driver = webdriver.Edge(executable_path='./Drivers/msedgedriver.exe')
+        return driver
 
-    def get_chrome(self):
-        self.driver = webdriver.Chrome(executable_path='./Drivers/chromedriver.exe')
-        return self.driver
-
-    def get_edge(self):
-        self.driver = webdriver.Edge(executable_path='./Drivers/msedgedriver.exe')
-        return self.driver
-
-    def get_firefox(self):
-        self.driver = webdriver.Firefox(executable_path='./Drivers/geckodriver.exe')
-        return self.driver
+    @staticmethod
+    def get_firefox():
+        driver = webdriver.Firefox(executable_path='./Drivers/geckodriver.exe')
+        return driver
