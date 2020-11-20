@@ -7,7 +7,7 @@ logger = Logger()
 webDrivers = WebDrivers()
 
 speedTest = SpeedTestPl(webDrivers.get_chrome(), logger)
-speedTest.scenario_2_test()
+speedTest.scenario_1_test()
 
 #speedTest = SpeedTestPl(webDrivers.get_edge(), logger)
 #speedTest.scenario_1()
