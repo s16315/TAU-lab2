@@ -1,15 +1,129 @@
-2020-11-20 14:02:16,816 INFO kangur-krakow.pl ? otwarcie strony
-2020-11-20 14:02:16,816 INFO  *** 
-2020-11-20 14:02:16,816 INFO kangur-krakow.pl ? scenario_1
-2020-11-20 14:02:17,035 INFO kangur-krakow.pl ? wczytano galerię zdjeć
-2020-11-20 14:02:17,209 INFO kangur-krakow.pl ? poprawnie wczytano album zdjeć
-2020-11-20 14:02:17,420 INFO kangur-krakow.pl ? poprawnie wczytano zdjecie
-2020-11-20 14:02:17,459 INFO kangur-krakow.pl ? testowanie galerii zdjęć zakończylo się sukcesem
-2020-11-20 14:02:22,613 INFO kangur-krakow.pl ? zamknięcie przeglądarki
-2020-11-20 14:02:26,334 INFO kangur-krakow.pl ? otwarcie strony
-2020-11-20 14:02:26,334 INFO  *** 
-2020-11-20 14:02:26,334 INFO kangur-krakow.pl ? scenario_2
-2020-11-20 14:02:26,452 INFO kangur-krakow.pl ? wczytano podstronę z wynikami
-2020-11-20 14:02:26,563 INFO kangur-krakow.pl ? wczytano podstronę z wynikami z 2019 roku
-2020-11-20 14:02:26,706 INFO kangur-krakow.pl ? test wczytywania wyników zakończył się sukcesem
-2020-11-20 14:02:31,790 INFO kangur-krakow.pl ? zamknięcie przeglądarki
+2020-11-20 14:26:27,645 INFO  
+2020-11-20 14:26:27,646 INFO ###################################
+2020-11-20 14:26:27,646 INFO www.speedtest.pl msedge otwarcie strony
+2020-11-20 14:26:27,646 INFO  *** 
+2020-11-20 14:26:27,646 INFO www.speedtest.pl msedge scenario_1
+2020-11-20 14:26:27,741 INFO www.speedtest.pl msedge przejście popup-u RODO
+2020-11-20 14:26:27,818 INFO www.speedtest.pl msedge przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 14:26:27,847 INFO www.speedtest.pl msedge wczytano poprawnie https://www.speedtest.pl/account
+2020-11-20 14:26:27,895 INFO www.speedtest.pl msedge wprowadzono e-mail użytkownika "adsefg.pl"
+2020-11-20 14:26:27,932 INFO www.speedtest.pl msedge wprowadzono hasło użytkownika "xxxxxxx"
+2020-11-20 14:26:28,039 INFO www.speedtest.pl/account msedge test walidacji maila zakończył się sukcesem
+2020-11-20 14:26:32,707 INFO www.speedtest.pl msedge zamknięcie przeglądarki
+2020-11-20 14:26:39,851 INFO  
+2020-11-20 14:26:39,851 INFO ###################################
+2020-11-20 14:26:39,851 INFO www.speedtest.pl firefox otwarcie strony
+2020-11-20 14:26:39,851 INFO  *** 
+2020-11-20 14:26:39,851 INFO www.speedtest.pl firefox scenario_1
+2020-11-20 14:26:40,069 INFO www.speedtest.pl firefox przejście popup-u RODO
+2020-11-20 14:26:40,220 INFO www.speedtest.pl firefox przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 14:26:40,223 INFO www.speedtest.pl firefox wczytano poprawnie https://www.speedtest.pl/account
+2020-11-20 14:26:40,235 INFO www.speedtest.pl firefox wprowadzono e-mail użytkownika "adsefg.pl"
+2020-11-20 14:26:40,244 INFO www.speedtest.pl firefox wprowadzono hasło użytkownika "xxxxxxx"
+2020-11-20 14:26:40,256 INFO www.speedtest.pl/account firefox test walidacji maila zakończył się sukcesem
+2020-11-20 14:26:41,805 INFO www.speedtest.pl firefox zamknięcie przeglądarki
+2020-11-20 14:26:46,237 INFO  
+2020-11-20 14:26:46,237 INFO ###################################
+2020-11-20 14:26:46,237 INFO www.speedtest.pl chrome otwarcie strony
+2020-11-20 14:26:46,237 INFO  *** 
+2020-11-20 14:26:46,238 INFO www.speedtest.pl chrome scenario_1
+2020-11-20 14:26:46,325 INFO www.speedtest.pl chrome przejście popup-u RODO
+2020-11-20 14:26:46,395 INFO www.speedtest.pl chrome przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 14:26:46,421 INFO www.speedtest.pl chrome wczytano poprawnie https://www.speedtest.pl/account
+2020-11-20 14:26:46,462 INFO www.speedtest.pl chrome wprowadzono e-mail użytkownika "adsefg.pl"
+2020-11-20 14:26:46,498 INFO www.speedtest.pl chrome wprowadzono hasło użytkownika "xxxxxxx"
+2020-11-20 14:26:46,590 INFO www.speedtest.pl/account chrome test walidacji maila zakończył się sukcesem
+2020-11-20 14:26:49,688 INFO www.speedtest.pl chrome zamknięcie przeglądarki
+2020-11-20 14:26:53,491 INFO  
+2020-11-20 14:26:53,491 INFO ###################################
+2020-11-20 14:26:53,491 INFO www.speedtest.pl msedge otwarcie strony
+2020-11-20 14:26:53,491 INFO  *** 
+2020-11-20 14:26:53,491 INFO www.speedtest.pl msedge scenario_2
+2020-11-20 14:26:53,587 INFO www.speedtest.pl msedge przejście popup-u RODO
+2020-11-20 14:26:53,678 INFO www.speedtest.pl msedge przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 14:26:53,764 INFO www.speedtest.pl/wycena msedge znaleziono element o id domain
+2020-11-20 14:26:53,831 INFO www.speedtest.pl/wycena msedge wstawienie do formularza strony "rykoszet.info"
+2020-11-20 14:26:53,862 INFO www.speedtest.pl/wycena msedge kliknięcie w przycisk "Rozpocznij wycenę"
+2020-11-20 14:26:54,919 INFO www.speedtest.pl/wycena msedge test wyceny zakończył się sukcesem
+2020-11-20 14:26:59,611 INFO www.speedtest.pl msedge zamknięcie przeglądarki
+2020-11-20 14:27:07,212 INFO  
+2020-11-20 14:27:07,213 INFO ###################################
+2020-11-20 14:27:07,213 INFO www.speedtest.pl firefox otwarcie strony
+2020-11-20 14:27:07,213 INFO  *** 
+2020-11-20 14:27:07,213 INFO www.speedtest.pl firefox scenario_2
+2020-11-20 14:27:07,471 INFO www.speedtest.pl firefox przejście popup-u RODO
+2020-11-20 14:27:08,961 INFO www.speedtest.pl firefox przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 14:27:08,973 INFO www.speedtest.pl/wycena firefox znaleziono element o id domain
+2020-11-20 14:27:09,014 INFO www.speedtest.pl/wycena firefox wstawienie do formularza strony "rykoszet.info"
+2020-11-20 14:27:09,225 INFO www.speedtest.pl/wycena firefox kliknięcie w przycisk "Rozpocznij wycenę"
+2020-11-20 14:27:10,237 INFO www.speedtest.pl/wycena firefox test wyceny zakończył się sukcesem
+2020-11-20 14:27:11,780 INFO www.speedtest.pl firefox zamknięcie przeglądarki
+2020-11-20 14:27:15,646 INFO  
+2020-11-20 14:27:15,646 INFO ###################################
+2020-11-20 14:27:15,646 INFO www.speedtest.pl chrome otwarcie strony
+2020-11-20 14:27:15,646 INFO  *** 
+2020-11-20 14:27:15,646 INFO www.speedtest.pl chrome scenario_2
+2020-11-20 14:27:15,733 INFO www.speedtest.pl chrome przejście popup-u RODO
+2020-11-20 14:27:15,807 INFO www.speedtest.pl chrome przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 14:27:16,454 INFO www.speedtest.pl/wycena chrome znaleziono element o id domain
+2020-11-20 14:27:16,511 INFO www.speedtest.pl/wycena chrome wstawienie do formularza strony "rykoszet.info"
+2020-11-20 14:27:16,544 INFO www.speedtest.pl/wycena chrome kliknięcie w przycisk "Rozpocznij wycenę"
+2020-11-20 14:27:17,590 INFO www.speedtest.pl/wycena chrome test wyceny zakończył się sukcesem
+2020-11-20 14:27:20,698 INFO www.speedtest.pl chrome zamknięcie przeglądarki
+2020-11-20 14:27:25,251 INFO  
+2020-11-20 14:27:25,251 INFO ###################################
+2020-11-20 14:27:25,251 INFO kangur-krakow.pl msedge otwarcie strony
+2020-11-20 14:27:25,251 INFO  *** 
+2020-11-20 14:27:25,251 INFO kangur-krakow.pl msedge scenario_1
+2020-11-20 14:27:25,463 INFO kangur-krakow.pl msedge wczytano galerię zdjeć
+2020-11-20 14:27:25,629 INFO kangur-krakow.pl msedge poprawnie wczytano album zdjeć
+2020-11-20 14:27:25,812 INFO kangur-krakow.pl msedge poprawnie wczytano zdjecie
+2020-11-20 14:27:25,853 INFO kangur-krakow.pl msedge testowanie galerii zdjęć zakończylo się sukcesem
+2020-11-20 14:27:32,516 INFO kangur-krakow.pl msedge zamknięcie przeglądarki
+2020-11-20 14:27:37,699 INFO  
+2020-11-20 14:27:37,699 INFO ###################################
+2020-11-20 14:27:37,699 INFO kangur-krakow.pl firefox otwarcie strony
+2020-11-20 14:27:37,699 INFO  *** 
+2020-11-20 14:27:37,699 INFO kangur-krakow.pl firefox scenario_1
+2020-11-20 14:27:37,868 INFO kangur-krakow.pl firefox wczytano galerię zdjeć
+2020-11-20 14:27:38,044 INFO kangur-krakow.pl firefox poprawnie wczytano album zdjeć
+2020-11-20 14:27:39,031 INFO kangur-krakow.pl firefox poprawnie wczytano zdjecie
+2020-11-20 14:27:39,047 INFO kangur-krakow.pl firefox testowanie galerii zdjęć zakończylo się sukcesem
+2020-11-20 14:27:42,538 INFO kangur-krakow.pl firefox zamknięcie przeglądarki
+2020-11-20 14:27:46,831 INFO  
+2020-11-20 14:27:46,831 INFO ###################################
+2020-11-20 14:27:46,832 INFO kangur-krakow.pl chrome otwarcie strony
+2020-11-20 14:27:46,832 INFO  *** 
+2020-11-20 14:27:46,832 INFO kangur-krakow.pl chrome scenario_1
+2020-11-20 14:27:47,006 INFO kangur-krakow.pl chrome wczytano galerię zdjeć
+2020-11-20 14:27:47,172 INFO kangur-krakow.pl chrome poprawnie wczytano album zdjeć
+2020-11-20 14:27:47,345 INFO kangur-krakow.pl chrome poprawnie wczytano zdjecie
+2020-11-20 14:27:47,384 INFO kangur-krakow.pl chrome testowanie galerii zdjęć zakończylo się sukcesem
+2020-11-20 14:27:53,158 INFO kangur-krakow.pl chrome zamknięcie przeglądarki
+2020-11-20 14:27:56,756 INFO  
+2020-11-20 14:27:56,756 INFO ###################################
+2020-11-20 14:27:56,756 INFO kangur-krakow.pl msedge otwarcie strony
+2020-11-20 14:27:56,756 INFO  *** 
+2020-11-20 14:27:56,756 INFO kangur-krakow.pl msedge scenario_2
+2020-11-20 14:27:56,880 INFO kangur-krakow.pl msedge wczytano podstronę z wynikami
+2020-11-20 14:27:57,002 INFO kangur-krakow.pl msedge wczytano podstronę z wynikami z 2019 roku
+2020-11-20 14:27:57,161 INFO kangur-krakow.pl msedge test wczytywania wyników zakończył się sukcesem
+2020-11-20 14:28:03,804 INFO kangur-krakow.pl msedge zamknięcie przeglądarki
+2020-11-20 14:28:10,229 INFO  
+2020-11-20 14:28:10,229 INFO ###################################
+2020-11-20 14:28:10,229 INFO kangur-krakow.pl firefox otwarcie strony
+2020-11-20 14:28:10,230 INFO  *** 
+2020-11-20 14:28:10,230 INFO kangur-krakow.pl firefox scenario_2
+2020-11-20 14:28:10,342 INFO kangur-krakow.pl firefox wczytano podstronę z wynikami
+2020-11-20 14:28:10,425 INFO kangur-krakow.pl firefox wczytano podstronę z wynikami z 2019 roku
+2020-11-20 14:28:10,521 INFO kangur-krakow.pl firefox test wczytywania wyników zakończył się sukcesem
+2020-11-20 14:28:13,978 INFO kangur-krakow.pl firefox zamknięcie przeglądarki
+2020-11-20 14:28:17,529 INFO  
+2020-11-20 14:28:17,529 INFO ###################################
+2020-11-20 14:28:17,530 INFO kangur-krakow.pl chrome otwarcie strony
+2020-11-20 14:28:17,530 INFO  *** 
+2020-11-20 14:28:17,530 INFO kangur-krakow.pl chrome scenario_2
+2020-11-20 14:28:17,646 INFO kangur-krakow.pl chrome wczytano podstronę z wynikami
+2020-11-20 14:28:19,090 INFO kangur-krakow.pl chrome wczytano podstronę z wynikami z 2019 roku
+2020-11-20 14:28:19,231 INFO kangur-krakow.pl chrome test wczytywania wyników zakończył się sukcesem
+2020-11-20 14:28:24,327 INFO kangur-krakow.pl chrome zamknięcie przeglądarki

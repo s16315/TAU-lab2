@@ -13,9 +13,10 @@ class SpeedTestPl:
     def __init__(self, driver, logger):
         self.driver = driver
         self.driver.get('https://www.speedtest.pl/')
-        # poprawić - self.driver.title nie działa
-        self.browser = "?"
+        self.browser = self.driver.name
         self.logger = logger
+        self.logger.info(" ".format(self.browser))
+        self.logger.info("###################################".format(self.browser))
         self.logger.info("www.speedtest.pl {} otwarcie strony".format(self.browser))
 
     def rodo_click(self):

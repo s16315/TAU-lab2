@@ -10,9 +10,10 @@ class Kangurkrakowpl:
     def __init__(self, driver, logger):
         self.driver = driver
         self.driver.get('http://kangur-krakow.pl')
-        # poprawić - self.driver.title nie działa
-        self.browser = "?"
+        self.browser = self.driver.name
         self.logger = logger
+        self.logger.info(" ".format(self.browser))
+        self.logger.info("###################################".format(self.browser))
         self.logger.info("kangur-krakow.pl {} otwarcie strony".format(self.browser))
 
     def end_test(self):
