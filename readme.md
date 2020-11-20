@@ -26,7 +26,7 @@ Sprawdzamy poprawność opcji Wycena stron.
 Scenariusz ma objąć natępujące kroki:
 1. Otwarcie w przeglądarce strony https://www.speedtest.pl.
 2. Wejście na https://www.speedtest.pl/wycena przez pozycję w menu głównym "Wycena stron".
-3. W formularzu w polu "Podaj adres strony internetowej do wyceny..." należy wprowadzić "www.rykoszet.info".
+3. W formularzu w polu "Podaj adres strony internetowej do wyceny..." należy wprowadzić "rykoszet.info".
 4. Kliknąć "Rozpocznij wycenę".
 5. Sprawdzić czy pojawił się rezultat.
 6. Zamykamy przeglądarkę.

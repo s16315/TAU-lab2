@@ -4,7 +4,7 @@ import logging
 class Logger:
     def __init__(self):
         self.logger = logging.getLogger('testy')
-        self.hdlr = logging.FileHandler('./tests.log', "w", encoding="UTF-8")
+        self.hdlr = logging.FileHandler('./tests.log', "a", encoding="UTF-8")
         formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
         self.hdlr.setFormatter(formatter)
         self.logger.addHandler(self.hdlr)

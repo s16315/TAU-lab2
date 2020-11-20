@@ -7,13 +7,13 @@ logger = Logger()
 webDrivers = WebDrivers()
 
 speedTest = SpeedTestPl(webDrivers.get_chrome(), logger)
-speedTest.scenario_1()
+speedTest.scenario_2_test()
 
-speedTest = SpeedTestPl(webDrivers.get_edge(), logger)
-speedTest.scenario_1()
+#speedTest = SpeedTestPl(webDrivers.get_edge(), logger)
+#speedTest.scenario_1()
 
-speedTest = SpeedTestPl(webDrivers.get_firefox(), logger)
-speedTest.scenario_1()
+#speedTest = SpeedTestPl(webDrivers.get_firefox(), logger)
+#speedTest.scenario_1()
 
-kangur = Kangurkrakowpl(webDrivers.get_chrome(), logger)
-kangur.scenario_1()
+#kangur = Kangurkrakowpl(webDrivers.get_chrome(), logger)
+#kangur.scenario_1()

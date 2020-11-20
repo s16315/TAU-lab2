@@ -1,5 +1,10 @@
 import time
 
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
 
 class SpeedTestPl:
     """
@@ -39,7 +44,18 @@ class SpeedTestPl:
         self.logger.info(
             "www.speedtest.pl {} przejście w głównym menu do pozycji \"Wycena stron\" https://www.speedtest.pl/wycena".format(
                 self.browser))
+        #time.sleep(1)
+        try:
+            element_present = EC.presence_of_element_located((By.ID, 'domain'))
+            WebDriverWait(self.driver, 3).until(element_present)
+        except TimeoutException:
+            self.logger.error("www.speedtest.pl/wycena {} nie można odnaleźć elementu o id {}".format(
+                self.browser, 'domain'))
+            return
+
         step3 = self.driver.find_element_by_id('domain')
+        self.logger.error("www.speedtest.pl/wycena {} znaleziono element o id {}".format(
+            self.browser, 'domain'))
         step3.send_keys('rykoszet.info')
         self.logger.info(
             "www.speedtest.pl/wycena {} wstawienie do formularza strony \"rykoszet.info\"".format(
@@ -49,7 +65,16 @@ class SpeedTestPl:
         self.logger.info(
             "www.speedtest.pl/wycena {} kliknięcie w przycisk \"Rozpocznij wycenę\"".format(
                 self.browser))
-        time.sleep(2)
+        try:
+            element_present = EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/div/div[1]/div[2]/div[5]/div[1]/div[1]'))
+            WebDriverWait(self.driver, 3).until(element_present)
+        except TimeoutException:
+            self.logger.error("www.speedtest.pl/wycena {} wycena nie została wczytana".format(
+                self.browser, 'domain'))
+            return
+        self.logger.info(
+            "www.speedtest.pl/wycena {} wycena została poprawnie wczytana".format(
+                self.browser))
 
     def end_test(self):
         """
@@ -70,3 +95,7 @@ class SpeedTestPl:
         self.rodo_click()
         self.main_menu_wycena()
         self.end_test()
+
+    def scenario_2_test(self):
+        self.rodo_click()
+        self.main_menu_wycena()

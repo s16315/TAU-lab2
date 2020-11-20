@@ -12,3 +12,57 @@
 2020-11-20 07:18:44,282 INFO www.speedtest.pl ? zamknięcie przeglądarki
 2020-11-20 07:18:48,461 INFO kangur-krakow.pl ? otwarcie strony
 2020-11-20 07:18:53,546 INFO kangur-krakow.pl ? zamknięcie przeglądarki
+2020-11-20 07:21:39,149 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 07:21:39,178 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 07:21:39,278 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 07:21:42,394 INFO www.speedtest.pl ? zamknięcie przeglądarki
+2020-11-20 07:21:46,391 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 07:21:46,424 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 07:21:46,548 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 07:21:51,202 INFO www.speedtest.pl ? zamknięcie przeglądarki
+2020-11-20 07:21:58,757 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 07:21:58,985 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 07:21:59,170 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 07:22:00,688 INFO www.speedtest.pl ? zamknięcie przeglądarki
+2020-11-20 07:22:04,854 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 07:22:09,944 INFO kangur-krakow.pl ? zamknięcie przeglądarki
+2020-11-20 11:57:29,501 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 11:57:29,529 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 11:57:29,621 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 11:57:32,726 INFO www.speedtest.pl ? zamknięcie przeglądarki
+2020-11-20 11:57:51,549 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 11:57:51,633 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 11:57:51,705 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:01:54,304 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 12:01:54,391 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 12:01:54,497 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:21:08,312 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 12:21:08,339 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 12:21:08,406 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:21:52,453 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 12:21:52,567 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 12:21:52,642 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:21:53,745 INFO www.speedtest.pl/wycena ? wstawienie do formularza strony "rykoszet.info"
+2020-11-20 12:21:53,774 INFO www.speedtest.pl/wycena ? kliknięcie w przycisk "Rozpocznij wycenę"
+2020-11-20 12:33:46,748 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 12:33:46,776 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 12:33:46,849 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:33:47,685 ERROR www.speedtest.pl/wycena ? znaleziono element o id domain
+2020-11-20 12:33:47,733 INFO www.speedtest.pl/wycena ? wstawienie do formularza strony "rykoszet.info"
+2020-11-20 12:33:48,773 INFO www.speedtest.pl/wycena ? kliknięcie w przycisk "Rozpocznij wycenę"
+2020-11-20 12:34:14,056 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 12:34:14,144 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 12:34:14,216 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:34:14,785 ERROR www.speedtest.pl/wycena ? nie można odnaleźć elementu o id domain
+2020-11-20 12:34:14,785 ERROR www.speedtest.pl/wycena ? znaleziono element o id domain
+2020-11-20 12:35:08,811 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 12:35:08,902 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 12:35:08,976 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:35:09,516 ERROR www.speedtest.pl/wycena ? nie można odnaleźć elementu o id domain
+2020-11-20 12:39:12,599 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 12:39:12,627 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 12:39:12,713 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Wycena stron" https://www.speedtest.pl/wycena
+2020-11-20 12:39:13,479 ERROR www.speedtest.pl/wycena ? znaleziono element o id domain
+2020-11-20 12:39:13,542 INFO www.speedtest.pl/wycena ? wstawienie do formularza strony "rykoszet.info"
+2020-11-20 12:39:13,569 INFO www.speedtest.pl/wycena ? kliknięcie w przycisk "Rozpocznij wycenę"
+2020-11-20 12:39:14,614 INFO www.speedtest.pl/wycena ? wycena została poprawnie wczytana
