@@ -1,0 +1,15 @@
+2020-11-20 14:02:16,816 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 14:02:16,816 INFO  *** 
+2020-11-20 14:02:16,816 INFO kangur-krakow.pl ? scenario_1
+2020-11-20 14:02:17,035 INFO kangur-krakow.pl ? wczytano galerię zdjeć
+2020-11-20 14:02:17,209 INFO kangur-krakow.pl ? poprawnie wczytano album zdjeć
+2020-11-20 14:02:17,420 INFO kangur-krakow.pl ? poprawnie wczytano zdjecie
+2020-11-20 14:02:17,459 INFO kangur-krakow.pl ? testowanie galerii zdjęć zakończylo się sukcesem
+2020-11-20 14:02:22,613 INFO kangur-krakow.pl ? zamknięcie przeglądarki
+2020-11-20 14:02:26,334 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 14:02:26,334 INFO  *** 
+2020-11-20 14:02:26,334 INFO kangur-krakow.pl ? scenario_2
+2020-11-20 14:02:26,452 INFO kangur-krakow.pl ? wczytano podstronę z wynikami
+2020-11-20 14:02:26,563 INFO kangur-krakow.pl ? wczytano podstronę z wynikami z 2019 roku
+2020-11-20 14:02:26,706 INFO kangur-krakow.pl ? test wczytywania wyników zakończył się sukcesem
+2020-11-20 14:02:31,790 INFO kangur-krakow.pl ? zamknięcie przeglądarki

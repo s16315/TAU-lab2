@@ -95,9 +95,11 @@ class Kangurkrakowpl:
     def scenario_1(self):
         self.logger.info(" *** ".format(self.browser))
         self.logger.info("kangur-krakow.pl {} scenario_1".format(self.browser))
+        self.photo_gallery_test()
         self.end_test()
 
     def scenario_2(self):
         self.logger.info(" *** ".format(self.browser))
         self.logger.info("kangur-krakow.pl {} scenario_2".format(self.browser))
+        self.results_finding_test()
         self.end_test()

@@ -16,4 +16,7 @@ webDrivers = WebDrivers()
 #kangur.scenario_1()
 
 kangur = Kangurkrakowpl(webDrivers.get_chrome(), logger)
-kangur.results_finding_test()
+kangur.scenario_1()
+
+kangur = Kangurkrakowpl(webDrivers.get_chrome(), logger)
+kangur.scenario_2()
