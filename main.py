@@ -16,4 +16,4 @@ webDrivers = WebDrivers()
 #kangur.scenario_1()
 
 kangur = Kangurkrakowpl(webDrivers.get_chrome(), logger)
-kangur.foto_gallery_test()
+kangur.results_finding_test()

@@ -81,7 +81,7 @@ class SpeedTestPl:
                 self.browser, 'domain'))
             return
         step3 = self.driver.find_element_by_id('domain')
-        self.logger.error("www.speedtest.pl/wycena {} znaleziono element o id {}".format(
+        self.logger.info("www.speedtest.pl/wycena {} znaleziono element o id {}".format(
             self.browser, 'domain'))
         step3.send_keys('rykoszet.info')
         self.logger.info(
