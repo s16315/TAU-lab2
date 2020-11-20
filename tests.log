@@ -1,12 +1,14 @@
-2020-11-19 08:12:02,196 INFO ? www.speedtest.pl otwarcie strony
-2020-11-19 08:12:02,280 INFO ? www.speedtest.pl przejście popup-u RODO
-2020-11-19 08:12:02,294 INFO ? www.speedtest.pl przejście w głównym menu do pozycji logowanie
-2020-11-19 08:12:03,379 INFO ? www.speedtest.pl zamknięcie przeglądarki
-2020-11-19 08:12:07,673 INFO ? www.speedtest.pl otwarcie strony
-2020-11-19 08:12:07,705 INFO ? www.speedtest.pl przejście popup-u RODO
-2020-11-19 08:12:07,722 INFO ? www.speedtest.pl przejście w głównym menu do pozycji logowanie
-2020-11-19 08:12:08,833 INFO ? www.speedtest.pl zamknięcie przeglądarki
-2020-11-19 08:12:15,798 INFO ? www.speedtest.pl otwarcie strony
-2020-11-19 08:12:16,073 INFO ? www.speedtest.pl przejście popup-u RODO
-2020-11-19 08:12:16,079 INFO ? www.speedtest.pl przejście w głównym menu do pozycji logowanie
-2020-11-19 08:12:17,737 INFO ? www.speedtest.pl zamknięcie przeglądarki
+2020-11-20 07:18:22,157 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 07:18:22,184 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 07:18:22,253 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 07:18:25,345 INFO www.speedtest.pl ? zamknięcie przeglądarki
+2020-11-20 07:18:29,409 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 07:18:29,440 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 07:18:29,524 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 07:18:34,203 INFO www.speedtest.pl ? zamknięcie przeglądarki
+2020-11-20 07:18:42,353 INFO www.speedtest.pl ? otwarcie strony
+2020-11-20 07:18:42,572 INFO www.speedtest.pl ? przejście popup-u RODO
+2020-11-20 07:18:42,733 INFO www.speedtest.pl ? przejście w głównym menu do pozycji "Moje konto" https://www.speedtest.pl/account
+2020-11-20 07:18:44,282 INFO www.speedtest.pl ? zamknięcie przeglądarki
+2020-11-20 07:18:48,461 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 07:18:53,546 INFO kangur-krakow.pl ? zamknięcie przeglądarki
