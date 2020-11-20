@@ -40,7 +40,7 @@ class SpeedTestPl:
             element_present = EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/div/div[1]/div/div[2]/form[1]/input[1]'))
             WebDriverWait(self.driver, 3).until(element_present)
         except TimeoutException:
-            self.logger.error("www.speedtest.pl/account {} formularz Konto użytkownika nie został wczytany".format(
+            self.logger.error("www.speedtest.pl/account {} formularz Konto użytkownika nie został wczytany w ciagu 3 sekund".format(
                 self.browser))
             return
         self.logger.info(
@@ -58,9 +58,9 @@ class SpeedTestPl:
             element_present = EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/div/div[1]/div/div[2]'))
             WebDriverWait(self.driver, 3).until(element_present)
         except TimeoutException:
-            self.logger.error("www.speedtest.pl/account {} nie pojawił się komunikat błędu".format(self.browser))
+            self.logger.error("www.speedtest.pl/account {} nie pojawił się komunikat błędu w ciagu 3 sekund".format(self.browser))
             return
-        self.logger.info("www.speedtest.pl/account {} prawidłowo pojawił się komunikat błędu".format(self.browser))
+        self.logger.info("www.speedtest.pl/account {} test walidacji maila zakończył się sukcesem".format(self.browser))
 
     def main_menu_wycena(self):
         """
@@ -77,7 +77,7 @@ class SpeedTestPl:
             element_present = EC.presence_of_element_located((By.ID, 'domain'))
             WebDriverWait(self.driver, 3).until(element_present)
         except TimeoutException:
-            self.logger.error("www.speedtest.pl/wycena {} nie można odnaleźć elementu o id {}".format(
+            self.logger.error("www.speedtest.pl/wycena {} nie można odnaleźć elementu o id {}  w ciagu 3 sekund".format(
                 self.browser, 'domain'))
             return
         step3 = self.driver.find_element_by_id('domain')
@@ -96,10 +96,10 @@ class SpeedTestPl:
             element_present = EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/div/div[1]/div[2]/div[5]/div[1]/div[1]'))
             WebDriverWait(self.driver, 3).until(element_present)
         except TimeoutException:
-            self.logger.error("www.speedtest.pl/wycena {} wycena nie została wczytana".format(self.browser))
+            self.logger.error("www.speedtest.pl/wycena {} wycena nie została wczytana w ciagu 3 sekund".format(self.browser))
             return
         self.logger.info(
-            "www.speedtest.pl/wycena {} wycena została poprawnie wczytana".format(
+            "www.speedtest.pl/wycena {} test wyceny zakończył się sukcesem".format(
                 self.browser))
 
     def end_test(self):
@@ -113,11 +113,15 @@ class SpeedTestPl:
         self.logger.info("www.speedtest.pl {} zamknięcie przeglądarki".format(self.browser))
 
     def scenario_1(self):
+        self.logger.info(" *** ".format(self.browser))
+        self.logger.info("www.speedtest.pl {} scenario_1".format(self.browser))
         self.rodo_click()
         self.test_login_validation_in_account()
         self.end_test()
 
     def scenario_2(self):
+        self.logger.info(" *** ".format(self.browser))
+        self.logger.info("www.speedtest.pl {} scenario_2".format(self.browser))
         self.rodo_click()
         self.main_menu_wycena()
         self.end_test()

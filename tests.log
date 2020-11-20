@@ -76,3 +76,19 @@
 2020-11-20 13:00:15,486 INFO www.speedtest.pl ? wprowadzono e-mail użytkownika "adsefg.pl"
 2020-11-20 13:00:15,523 INFO www.speedtest.pl ? wprowadzono hasło użytkownika "xxxxxxx"
 2020-11-20 13:00:15,618 INFO www.speedtest.pl/account ? pojawił się komunikat błędu
+2020-11-20 13:22:06,218 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 13:22:06,593 INFO kangur-krakow.pl ? wczytano galerię zdjeć
+2020-11-20 13:25:54,509 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 13:25:54,708 INFO kangur-krakow.pl ? wczytano galerię zdjeć
+2020-11-20 13:28:49,622 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 13:28:49,829 INFO kangur-krakow.pl ? wczytano galerię zdjeć
+2020-11-20 13:28:49,993 INFO kangur-krakow.pl ? wczytano album zdjeć
+2020-11-20 13:31:43,612 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 13:31:44,043 INFO kangur-krakow.pl ? wczytano galerię zdjeć
+2020-11-20 13:31:46,032 INFO kangur-krakow.pl ? poprawnie wczytano album zdjeć
+2020-11-20 13:31:46,242 INFO kangur-krakow.pl ? poprawnie wczytano zdjecie
+2020-11-20 13:38:54,105 INFO kangur-krakow.pl ? otwarcie strony
+2020-11-20 13:38:54,295 INFO kangur-krakow.pl ? wczytano galerię zdjeć
+2020-11-20 13:38:58,867 INFO kangur-krakow.pl ? poprawnie wczytano album zdjeć
+2020-11-20 13:38:59,192 INFO kangur-krakow.pl ? poprawnie wczytano zdjecie
+2020-11-20 13:38:59,230 INFO kangur-krakow.pl ? testowanie galerii zdjęć zakończylo się sukcesem
